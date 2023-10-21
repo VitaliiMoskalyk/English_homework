@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  @@include('html/head.html',{ "title":"SKY-Cloud" })
+
+  <body>
+    @@include('html/header.html',{})
+    <main>
+      <div class="container">
+        <h2>Scene 3: Ordering the food</h2>
+        <audio autoplay loop id="myAudio">
+          <source
+            src="https://cdn.freesound.org/previews/39/39873_409629-lq.mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+      </div>
+
+      <div class="container scene_3">
+        <div class="speach__wrapper">
+          <p class="Bill">
+            I want a pasta with a double cheese and a glass of the best white
+            wine you have. My friend wants a pasta with this salad and a green
+            tea with the lemon.
+            <button
+              id="speakButton"
+              type="button"
+              class="speakButton btn btn-warning"
+            >
+              <img src="@img/speach.svg" alt="speach icon" width="24" />
+            </button>
+          </p>
+        </div>
+
+        <div class="speach__wrapper">
+          <p class="Max">Yes, you are absolutely right. Thank you.</p>
+          <button
+            id="speakButton"
+            type="button"
+            class="speakButton btn btn-warning"
+          >
+            <img src="@img/speach.svg" alt="speach icon" width="24" />
+          </button>
+        </div>
+
+        <div class="speach__wrapper">
+          <p class="Bill">
+            And I want you bring us some ashtray, please, we are going to smoke
+            the cigarettes
+          </p>
+          <button
+            id="speakButton"
+            type="button"
+            class="speakButton btn btn-warning"
+          >
+            <img src="@img/speach.svg" alt="speach icon" width="24" />
+          </button>
+        </div>
+        <div class="speach__wrapper">
+          <p class="Max">It`s a good idea, Bill.</p>
+          <button
+            id="speakButton"
+            type="button"
+            class="speakButton btn btn-warning"
+          >
+            <img src="@img/speach.svg" alt="speach icon" width="24" />
+          </button>
+        </div>
+        <div class="btn__wrapper">
+          <button
+            id="textButton"
+            type="button"
+            class="btn__text btn btn-success"
+          >
+            Start the dialogue
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

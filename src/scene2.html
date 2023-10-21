@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  @@include('html/head.html',{ "title":"SKY-Cloud" })
+
+  <body>
+    @@include('html/header.html',{})
+    <main>
+      <div class="container">
+        <h2>
+          Scene 2: Meeting at the restaurant and discussing what you'll eat
+        </h2>
+        <audio autoplay loop id="myAudio">
+          <source
+            src="https://cdn.freesound.org/previews/39/39873_409629-lq.mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+      </div>
+
+      <div class="container scene_2">
+        <div class="speach__wrapper">
+          <p class="Bill">
+            Have you ever heard about this restaurant ? I know the chief, his
+            name is Miguel.
+            <button
+              id="speakButton"
+              type="button"
+              class="speakButton btn btn-warning"
+            >
+              <img src="@img/speach.svg" alt="speach icon" width="24" />
+            </button>
+          </p>
+        </div>
+
+        <div class="speach__wrapper">
+          <p class="Max">
+            Oh, very interesting! I hope Miguel have a good mood and the fresh
+            ideas of cooking pasta. I will order a glass of white wine , won`t
+            you?
+          </p>
+          <button
+            id="speakButton"
+            type="button"
+            class="speakButton btn btn-warning"
+          >
+            <img src="@img/speach.svg" alt="speach icon" width="24" />
+          </button>
+        </div>
+
+        <div class="speach__wrapper">
+          <p class="Bill">
+            No, I won`t. I would better drink a cup of green tea with piece of a
+            lemon, and I am going to order a fresh salad with cabbage and sweet
+            pepper, and of course the seafood pasta.
+          </p>
+          <button
+            id="speakButton"
+            type="button"
+            class="speakButton btn btn-warning"
+          >
+            <img src="@img/speach.svg" alt="speach icon" width="24" />
+          </button>
+        </div>
+        <div class="speach__wrapper">
+          <p class="Max">Yes, you are right. Can you see a waiter?</p>
+          <button
+            id="speakButton"
+            type="button"
+            class="speakButton btn btn-warning"
+          >
+            <img src="@img/speach.svg" alt="speach icon" width="24" />
+          </button>
+        </div>
+        <div class="btn__wrapper">
+          <button
+            id="textButton"
+            type="button"
+            class="btn__text btn btn-success"
+          >
+            Start the dialogue
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
